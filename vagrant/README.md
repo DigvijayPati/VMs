@@ -16,7 +16,7 @@ $ vagrant reload --provision
 
 ```
 
-### D) ssh into the VM
+### D) ssh into the VM and run docker 
 ```bash
 $ vagrant ssh
 
@@ -32,6 +32,26 @@ Failed to connect to https://changelogs.ubuntu.com/meta-release-lts. Check your 
 
 Last login: Wed Apr 12 19:08:39 2023 from 10.0.2.2
 vagrant@build-linux-vm-1:~$
+
+```
+
+
+```bash
+ 
+vagrant@build-linux-vm-1:~$ docker run hello-world
+Unable to find image 'hello-world:latest' locally
+latest: Pulling from library/hello-world
+2db29710123e: Pull complete
+Digest: sha256:4e83453afed1b4fa1a3500525091dbfca6ce1e66903fd4c01ff015dbcb1ba33e
+Status: Downloaded newer image for hello-world:latest
+
+Hello from Docker!
+This message shows that your installation appears to be working correctly.
+
+vagrant@build-linux-vm-1:~$ docker images
+REPOSITORY    TAG       IMAGE ID       CREATED         SIZE
+hello-world   latest    feb5d9fea6a5   18 months ago   13.3kB
+vagrant@build-linux-vm-1:~$ 
 
 ```
 
