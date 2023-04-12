@@ -32,7 +32,7 @@ $ vagrant reload --provision
 
 ```
 
-### D) ssh into the VM and run docker 
+### E) ssh into the VM and run docker 
 ```bash
 $ vagrant ssh
 
@@ -72,7 +72,7 @@ vagrant@build-linux-vm-1:~$
 ```
 
 
-### D) Check the status of VM
+### F) Check the status of VM
 ```bash
 $ vagrant status
 
