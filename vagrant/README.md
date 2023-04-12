@@ -4,6 +4,19 @@
 
 ### B) Create Vagrantfile
 
+Use pre-built base VM box available on Vagrant cloud
+
+https://github.com/geerlingguy/packer-boxes/tree/master/ubuntu2004 
+
+https://app.vagrantup.com/geerlingguy/boxes/ubuntu2004
+```bash
+$ geerlingguy/ubuntu2004  
+
+```
+
+Vagrantfile automatically downloads this box on your local machine from Vagrant cloud. 
+
+
 ### C) Start the VM
 ```bash
 $ vagrant up 
