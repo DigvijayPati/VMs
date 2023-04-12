@@ -9,6 +9,9 @@ Use pre-built base VM box available on Vagrant cloud
 https://github.com/geerlingguy/packer-boxes/tree/master/ubuntu2004 
 
 https://app.vagrantup.com/geerlingguy/boxes/ubuntu2004
+
+Thanks to https://github.com/geerlingguy 
+
 ```bash
 $ geerlingguy/ubuntu2004  
 
