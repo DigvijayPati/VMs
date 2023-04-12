@@ -34,3 +34,18 @@ Last login: Wed Apr 12 19:08:39 2023 from 10.0.2.2
 vagrant@build-linux-vm-1:~$
 
 ```
+
+
+### D) Check the status of VM
+```bash
+$ vagrant status
+
+```
+
+```bash
+Current machine states:
+
+build-linux-vm-1   running (virtualbox)
+
+```
+
